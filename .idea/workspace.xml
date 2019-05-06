@@ -14,17 +14,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="63" column="33" lean-forward="false" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+            <state relative-caret-position="517">
+              <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#667#744#0" expanded="false" />
-                <element signature="e#767#872#0" expanded="false" />
-                <element signature="e#895#962#0" expanded="false" />
-                <element signature="e#985#1163#0" expanded="false" />
+                <element signature="e#749#826#0" expanded="false" />
+                <element signature="e#849#954#0" expanded="false" />
+                <element signature="e#977#1044#0" expanded="false" />
+                <element signature="e#1067#1245#0" expanded="false" />
+                <element signature="e#1268#1498#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -63,13 +64,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="739" />
+    <option name="y" value="162" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -82,26 +84,10 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="vueLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vueLearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../E9/ecology" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../NodeJS/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -218,15 +204,16 @@
       <option name="presentableId" value="Default" />
       <updated>1556592623818</updated>
       <workItem from="1556592625053" duration="125000" />
-      <workItem from="1556592918231" duration="3564000" />
+      <workItem from="1556592918231" duration="4164000" />
+      <workItem from="1557133190271" duration="1743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3689000" />
+    <option name="totallyTimeSpent" value="6032000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="739" y="162" width="960" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -305,27 +292,47 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#667#744#0" expanded="false" />
-            <element signature="e#767#872#0" expanded="false" />
-            <element signature="e#895#962#0" expanded="false" />
-            <element signature="e#985#1163#0" expanded="false" />
+            <element signature="e#749#826#0" expanded="false" />
+            <element signature="e#849#954#0" expanded="false" />
+            <element signature="e#977#1044#0" expanded="false" />
+            <element signature="e#1067#1245#0" expanded="false" />
+            <element signature="e#1268#1498#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="63" column="33" lean-forward="false" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#667#744#0" expanded="false" />
-            <element signature="e#767#872#0" expanded="false" />
-            <element signature="e#895#962#0" expanded="false" />
-            <element signature="e#985#1163#0" expanded="false" />
+            <element signature="e#749#826#0" expanded="false" />
+            <element signature="e#849#954#0" expanded="false" />
+            <element signature="e#977#1044#0" expanded="false" />
+            <element signature="e#1067#1245#0" expanded="false" />
+            <element signature="e#1268#1498#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="76" column="17" lean-forward="false" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#749#826#0" expanded="false" />
+            <element signature="e#849#954#0" expanded="false" />
+            <element signature="e#977#1044#0" expanded="false" />
+            <element signature="e#1067#1245#0" expanded="false" />
+            <element signature="e#1268#1498#0" expanded="false" />
           </folding>
         </state>
       </provider>
