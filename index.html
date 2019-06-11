@@ -55,6 +55,45 @@
     </p>
     <p>{{ answer }}</p>
 </div>
+<ul id="for-example">
+    <li v-for="(item, index) in items">
+        {{  parentMessage }} - {{ index }} - {{ item.message }}
+    </li>
+</ul>
+
+<ul id="for-object">
+    <li v-for="(value, name, index) in object">
+        {{ index }}. {{ name }}: {{ value }}
+    </li>
+</ul>
+
+<ul id="filter-array">
+    <li v-for="n in evenNumbers">{{ n }}</li>
+</ul>
+
+<div id="on-event">
+    <button v-on:click="greet">Greet</button>
+    <button v-on:click="say('hi')">Say hi</button>
+    <button v-on:click="say('what')">Say what</button>
+    <button v-on:click="warn('Form cannot be submitted yet.', $event)">Submit</button>
+
+    <!-- 阻止单击事件继续传播 -->
+    <a v-on:click.stop="doThis"></a>
+
+    <!-- 提交事件不再重载页面 -->
+    <form v-on:submit.prevent="onSubmit"></form>
+
+    <!-- 修饰符可以串联 -->
+    <a v-on:click.stop.prevent="doThat"></a>
+
+    <!-- 添加事件监听器时使用事件捕获模式 -->
+    <!-- 即元素自身触发的事件先在此处理，然后才交由内部元素进行处理 -->
+    <div v-on:click.capture="doThis">...</div>
+
+    <!-- 只当在 event.target 是当前元素自身时触发处理函数 -->
+    <!-- 即事件不是从内部元素触发的 -->
+    <div v-on:click.self="doThat">...</div>
+</div>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
@@ -203,6 +242,65 @@
         }
     })
 
+    var forExample = new Vue({
+        el: '#for-example',
+        data: {
+            parentMessage: 'Parent',
+            items: [
+                { message: 'Foo' },
+                { message: 'Bar' },
+            ]
+        }
+    })
+
+    var forObject = new Vue({
+        el: "#for-object",
+        data: {
+            object: {
+                title: 'How to do lists in Vue',
+                author: 'Jane Doe',
+                publishedAt: '2016-04-10'
+            }
+        }
+    })
+
+    var filterArray = new Vue({
+        el: "#filter-array",
+        data: {
+            numbers: [1, 2, 3, 4, 5]
+        },
+        computed: {
+            evenNumbers: function () {
+                return this.numbers.filter(function (number) {
+                    return number % 2 === 0
+                })
+            }
+        }
+    })
+
+    var onEvent = new Vue({
+        el: "#on-event",
+        data: {
+            name: 'Vue.js'
+        },
+        methods: {
+            greet: function (event) {
+                alert('Hello ' + this.name + '!');
+                if(event){
+                    alert(event.target.tagName)
+                }
+            },
+            say: function (message) {
+                alert(message);
+            },
+            warn: function (message, event) {
+                if(event){
+                    event.preventDefault();
+                }
+                alert(message)
+            }
+        }
+    })
 
 </script>
 </html>
